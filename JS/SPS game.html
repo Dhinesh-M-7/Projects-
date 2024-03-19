@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Stone Paper Scissor Game
+        </title>
+        <link rel="stylesheet" href="SPS game.css">
+    </head>
+    <body>
+        <p class="game">
+            Rock Paper Scissors
+        </p>
+        <button class="play-button" onclick="playGame('rock')">
+            <img src="Images/rock-emoji.png" style="height:50px;width:50px">
+        </button>
+        <button class="play-button paper-button" onclick="playGame('paper')">
+            <img src="Images/paper-emoji.png" style="height:50px;width:50px">
+        </button>
+        <button class="play-button scissors-button" onclick="playGame('scissors')">
+            <img src="Images/scissors-emoji.png" style="height:50px;width:50px">
+        </button>
+        <div class="result js-result">
+
+        </div>
+        <p class="image-result js-image-result">
+
+        </p>
+        <br>
+        <br>
+        <p class="js-final-result">
+            Wins: 0, Losses: 0, Ties:0
+        </p>
+        <button class="reset" onclick="playGame('reset')">
+            Reset Score
+        </button>
+        <script src="SPS game.js"></script>
+    </body>
+</html>
