@@ -1,0 +1,10 @@
+.gameTile {
+  width: 26px;
+  height: 26px;
+}
+
+.gameContainer {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
