@@ -1,0 +1,26 @@
+.suggestion-bar{
+    display: flex;
+    position: fixed;
+    top:49px;
+    left:64px;
+    right:0px;
+    height: 60px;
+    margin-left: 10px;
+    align-items: center;
+    z-index: 50;
+    background-color: white;
+}
+.buttons{
+    height:32px;
+    margin-left: 12px;
+    margin-top: 10px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+    padding:10px;
+    font-family: arial;
+    font-weight:bold;
+    color: rgb(40, 40, 40);
+    font-size: 14px;
+}

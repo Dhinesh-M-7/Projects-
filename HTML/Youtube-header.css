@@ -1,0 +1,97 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    z-index: 100;
+    background-color: white;
+}
+.left{
+    margin-left: 12px;
+    display:flex;
+    width:176px;
+    background-color:white;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.yt-logo{
+    position:relative;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.in{
+    position:absolute;
+    top: -12px;
+    right: -13px;
+    font-family:arial;
+    font-size:9px;
+    color:rgb(51, 50, 50);
+}
+.middle{
+    display:flex;
+    flex:1;
+    align-items: center;
+}
+.search-bar{
+    flex:1;
+    height:34px;
+    margin-left:180px;
+    border-color:rgb(218, 214, 214);
+    border-style:solid;
+    border-width: 1px;
+    border-radius:  18px 0 0 18px;
+    padding-left: 14px;
+    font-family:arial;
+    font-size:16px;
+}
+.search-icon{
+    display:flex;
+    align-items: center;
+    height:38px;
+    width: 60px;
+    border-color:rgb(218, 214, 214);
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 0 18px 18px 0;
+    margin-left: -1px;
+    cursor: pointer;
+}
+.searchwithvoice-icon{
+    height:26px;
+    width: 26px;
+    border: none;
+    border-radius: 50%;
+    margin-right:160px;
+    margin-left:20px;
+    cursor: pointer;
+}
+.right{
+    display:flex;
+    width:200px;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.sign-in{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    height:36px;
+    width:100px;
+    background-color: white;
+    border-radius:18px;
+    border-color:rgb(224, 223, 223);
+    border-style:solid;
+    border-width:1px;
+    margin-left: 20px;
+    margin-right: 56px;
+    cursor: pointer;
+}
+.sign-in-text{
+    color:rgb(51, 51, 255);
+    font-family:arial;
+    font-weight:700;
+}
